@@ -16,7 +16,7 @@ pub struct GreetingAccount {
 }
 
 // Declara y exporta el punto de entrada (entrypoint) del programa
-pub mod entrypoint!(process_instruction);
+pub entrypoint!(process_instruction);
 
 // Implementa la lógica principal del programa en la función process_instruction
 pub fn process_instruction(
