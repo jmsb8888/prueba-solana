@@ -17,5 +17,5 @@ solana-program-test = "~1.16.13"
 solana-sdk = "~1.16.13"
 
 [lib]
-name = "my_smart_contract"
+name = "prueba"
 crate-type = ["cdylib", "lib"]
